@@ -1,0 +1,309 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+:root{
+    --primary-color : #498172;
+    --secondary-color : #000000;
+    --text-color : white;
+}
+
+body{
+    font-family: Poppins;
+}
+
+
+/* div{
+    border: 1px solid red;
+} */
+
+/* ==================NAVBAR SECTION===================== --> */
+
+.header-container{
+    background-color: var(--secondary-color);
+    display: flex;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    padding-left: 105px;
+    padding-right: 105px;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+}
+
+.brand img{
+    height: 40px;
+    cursor: pointer;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link-item{
+    display: inline-block;
+    color: var(--text-color);
+    margin-left: 30px;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.link-item:hover{
+    color: #1ab752;
+}
+
+.garis{
+    cursor: default;
+}
+
+.garis:hover{
+    color: white;
+}
+
+
+/* ================== END NAVBAR SECTION===================== */
+
+
+/* ================== JUMBOTRON SECTION===================== */
+
+.jumbotron-container{
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-top: 85px;
+    background-color: var(--primary-color);
+
+}
+
+.jumbotron-items{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 200px;
+}
+
+.jumbotron-image img{
+    width: 467px
+}
+
+.jumbotron-image{
+    padding-top: 35px;
+}
+
+.main-text{
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+}
+
+.second-text{
+    color: white;
+    font-size: 22px;
+    margin-top: 35px;
+}
+
+.btn{
+    margin-top: 40px; 
+    width: 327px;
+    height: 48px;
+    border-radius: 48px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.white{
+    background-color: white;
+    color: #000000;
+}
+
+.second{
+    margin-top: 15px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    width: 304 px;
+    transition: 100ms;
+    cursor: pointer;
+
+}
+
+.second:hover{
+    background-color: white;
+    color: black;
+}
+
+.small-text{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.second-container{
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-top: 0px;
+    background-color: #9487b4;
+    padding-top: 35px
+    
+}
+
+.second-items{
+    text-align: center;
+}
+
+.first-text{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.two-text{
+    color: white;
+    font-size: 17px;
+    padding-top: 5px;
+    margin-top: 15px;
+}
+
+.btn-first{
+    margin-top: 15px; 
+    width: 170px;
+    height: 48px;
+    border-radius: 48px;
+    border: none;
+    font-weight: bold;
+    font-size: 14px;
+    background-color: white;
+    color: #000000;
+    cursor: pointer;
+    
+
+
+
+}
+
+.little-text{
+    font-size: 12px;
+    color: white;
+    text-align: center;
+}
+
+.third-container{
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-top: 0px;
+    background-color: white
+}
+
+.third-items{
+    text-align: center;
+}
+
+.satu-text{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #000000;
+    padding-top: 35px;
+}
+
+.dua-text{
+    font-weight: 800;
+    color: black;
+
+}
+
+.tiga-text{
+
+}
+
+
+.empat-text{
+    font-size: 40px;
+    font-weight: bolder;
+    color: #000000;
+    padding-top: 35px;
+}
+
+
+.btn-second{
+    margin-top: 40px; 
+    width: 327px;
+    height: 48px;
+    border-radius: 48px;
+    border: 3px solid var(--primary-color);
+    font-weight: bold;
+    font-size: 14px;
+    background-color: white;
+    cursor: pointer;
+    color: var(--primary-color);
+    
+}
+
+.lima-text{
+    font-weight: 800;
+    color: black;
+
+}
+
+.btn-third{
+    margin-top: 40px; 
+    width: 327px;
+    height: 48px;
+    border-radius: 48px;
+    border: 3px solid var(--primary-color);
+    background-color: white;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 14px;
+    color: var(--primary-color);
+   
+}
+
+
+.fourth-container{
+    padding-left: 105px;
+    padding-right: 105px;
+    margin-top: 0px;
+    background-color: purple;
+}
+
+.fourth-items{
+    text-align: center;
+}
+
+
+
+.enam-text{
+    font-size: 40px;
+    font-weight: bolder;
+    color: white;
+    padding-top: 35px;
+    
+}
+
+.tujuh-text{
+    color: white;
+    font-size: 17px;
+    padding-top: 10px;
+  
+}
+
+.btn-fourth{
+    margin-top: 40px; 
+    width: 327px;
+    height: 48px;
+    border-radius: 48px;
+    border: none;
+    font-weight: bold;
+    font-size: 12px;
+    background-color: white;
+    color : #000000;
+    cursor: pointer;
+   
+}
